@@ -109,6 +109,14 @@ Vector3D normalize(Vector3D A) {
 	return vector;
 }
 
+void printVector3D(Vector3D v) {
+	printf("(%f, %f, %f)\n", v.x, v.y, v.z);
+}
+
+void printPoint3D(Point3D p) {
+	printf("(%f, %f, %f)\n", p.x, p.y, p.z);
+}
+
 
 
 

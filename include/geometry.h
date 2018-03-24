@@ -23,4 +23,7 @@ float norm(Vector3D A); // Calcule la norme
 
 Vector3D normalize(Vector3D A); // Normalise un vecteur
 
+void printVector3D(Vector3D v);
+void printPoint3D(Point3D p);
+
 #endif
